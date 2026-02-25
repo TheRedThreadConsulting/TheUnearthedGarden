@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ethical Sourcing | The Unearthed Garden</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&amp;family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#D4AF37", // Elegant Gold
+              "background-light": "#FDFCF0", // Creamy Parchment
+              "background-dark": "#062C22", // Deep Emerald
+              emerald: {
+                900: "#062C22",
+                800: "#0A3D2E",
+              },
+              amber: {
+                400: "#FBBF24",
+                600: "#D97706",
+              }
+            },
+            fontFamily: {
+              display: ["Cinzel", "serif"],
+              serif: ["Playfair Display", "serif"],
+              sans: ["Plus Jakarta Sans", "sans-serif"],
+            },
+            borderRadius: {
+              DEFAULT: "0.5rem",
+              'petal': '0% 100% 0% 100%',
+            },
+          },
+        },
+      };
+    </script>
+<style>
+        .petal-btn {
+            border-radius: 0% 100% 0% 100%;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+        .petal-btn:hover {
+            border-radius: 40% 60% 40% 60%;
+            transform: scale(1.05);
+        }
+        .timeline-vine {
+            background: linear-gradient(to bottom, transparent, #D4AF37 15%, #D4AF37 85%, transparent);
+            width: 2px;
+        }
+        .bg-pattern {
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0c1.333 10 6.667 15 15 15-8.333 0-13.667 5-15 15-1.333-10-6.667-15-15-15 8.333 0 13.667-5 15-15z' fill='%23D4AF37' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-emerald-900 dark:text-stone-100 font-sans transition-colors duration-300">
+<nav class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-primary/20">
+<div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+<div class="flex items-center gap-4">
+<span class="font-display text-xl tracking-widest text-primary">THE UNEARTHED GARDEN</span>
+</div>
+<div class="hidden md:flex gap-8 font-display text-sm tracking-widest uppercase">
+<a class="hover:text-primary transition-colors" href="#">Shop</a>
+<a class="text-primary underline underline-offset-8" href="#">Our Ethics</a>
+<a class="hover:text-primary transition-colors" href="#">The Garden</a>
+<a class="hover:text-primary transition-colors" href="#">Contact</a>
+</div>
+<button class="p-2 rounded-full hover:bg-primary/10 transition-colors" onclick="document.documentElement.classList.toggle('dark')">
+<span class="material-icons-sharp text-primary">dark_mode</span>
+</button>
+</div>
+</nav>
+<header class="relative py-24 overflow-hidden">
+<div class="absolute inset-0 opacity-10 dark:opacity-20 bg-pattern"></div>
+<div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+<img alt="The Unearthed Garden Logo" class="w-64 mx-auto mb-12 drop-shadow-2xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBh4ySk837MjRdLtfTeDa-2u3Zle0DbiHyXSXv1tenTsuyj17a0K4SoL9mKNRt75QpO0cL958z7XEFiV3VGYt0UdQrjHB4dvlilOTtzQNp3esC6aqUtgMDY4yaXZuz1dG-zKoiKi1qxiLO1slRNwWu48KPw07aSVpQbGbmpOzbbhJuA2Fw3KWWaI_SBBmmdduwqY4l-XMiREjqEbSY6hul2gr5-W-DUEJcrFrbc0Pur-CqzbniSuP96fKIRtqISMgwmx0ClQ-lVnC8"/>
+<h1 class="font-display text-4xl md:text-6xl mb-6 tracking-tight">Sourcing Through <span class="text-primary italic font-serif">Nature's Lens</span></h1>
+<p class="text-lg md:text-xl font-serif italic text-emerald-800/80 dark:text-stone-300/80 leading-relaxed max-w-2xl mx-auto">
+                Discover the journey of every crystal, from the deep roots of the Earth to the elegance of your home, guided by transparency and respect for the soil.
+            </p>
+</div>
+</header>
+<section class="py-20 relative">
+<div class="max-w-6xl mx-auto px-6">
+<div class="relative">
+<div class="absolute left-1/2 -translate-x-1/2 h-full w-px bg-primary/30 hidden md:block">
+<div class="timeline-vine absolute inset-0"></div>
+</div>
+<div class="relative mb-32 group">
+<div class="md:flex items-center justify-between">
+<div class="md:w-5/12 text-right hidden md:block">
+<h3 class="font-display text-2xl mb-4 text-primary">The Foundation</h3>
+<p class="text-emerald-800/70 dark:text-stone-400">Our journey begins with geological respect. We partner only with sites where the surrounding ecosystems are preserved and protected.</p>
+</div>
+<div class="relative z-10 flex justify-center md:w-2/12 mb-8 md:mb-0">
+<div class="w-24 h-24 rounded-full bg-background-light dark:bg-background-dark border-2 border-primary flex items-center justify-center shadow-[0_0_30px_rgba(212,175,55,0.2)]">
+<span class="material-icons-sharp text-primary text-4xl">eco</span>
+</div>
+</div>
+<div class="md:w-5/12 pl-0 md:pl-12">
+<div class="md:hidden">
+<h3 class="font-display text-2xl mb-2 text-primary">The Foundation</h3>
+</div>
+<h2 class="font-display text-3xl md:text-4xl mb-4">Step I: Earth Spirits</h2>
+<p class="text-emerald-800/70 dark:text-stone-400 mb-6 md:hidden">Our journey begins with geological respect. We partner only with sites where the surrounding ecosystems are preserved and protected.</p>
+<ul class="space-y-3 mb-8">
+<li class="flex items-center gap-3"><span class="material-icons-sharp text-primary text-sm">local_florist</span> Biodiversity Audits</li>
+<li class="flex items-center gap-3"><span class="material-icons-sharp text-primary text-sm">local_florist</span> Soil Integrity testing</li>
+<li class="flex items-center gap-3"><span class="material-icons-sharp text-primary text-sm">local_florist</span> Sacred Land Protection</li>
+</ul>
+<button class="petal-btn bg-primary px-8 py-3 text-emerald-900 font-bold uppercase tracking-widest text-xs hover:shadow-lg hover:shadow-primary/30">
+                                Learn More
+                            </button>
+</div>
+</div>
+</div>
+<div class="relative mb-32 group">
+<div class="md:flex flex-row-reverse items-center justify-between">
+<div class="md:w-5/12 text-left hidden md:block">
+<h3 class="font-display text-2xl mb-4 text-primary">The Extraction</h3>
+<p class="text-emerald-800/70 dark:text-stone-400">Hand-mined methods ensure that the energy and physical structure of each crystal remain pure and undisturbed by heavy machinery.</p>
+</div>
+<div class="relative z-10 flex justify-center md:w-2/12 mb-8 md:mb-0">
+<div class="w-24 h-24 rounded-full bg-background-light dark:bg-background-dark border-2 border-primary flex items-center justify-center shadow-[0_0_30px_rgba(212,175,55,0.2)]">
+<span class="material-icons-sharp text-primary text-4xl">precision_manufacturing</span>
+</div>
+</div>
+<div class="md:w-5/12 pr-0 md:pr-12 text-left md:text-right">
+<div class="md:hidden">
+<h3 class="font-display text-2xl mb-2 text-primary">The Extraction</h3>
+</div>
+<h2 class="font-display text-3xl md:text-4xl mb-4">Step II: Ethical Mining</h2>
+<p class="text-emerald-800/70 dark:text-stone-400 mb-6 md:hidden">Hand-mined methods ensure that the energy and physical structure of each crystal remain pure and undisturbed by heavy machinery.</p>
+<ul class="space-y-3 mb-8 flex flex-col md:items-end">
+<li class="flex items-center gap-3">Fair Wage Guarantees <span class="material-icons-sharp text-primary text-sm">diamond</span></li>
+<li class="flex items-center gap-3">Zero Heavy Machinery <span class="material-icons-sharp text-primary text-sm">diamond</span></li>
+<li class="flex items-center gap-3">Traceable Supply Chains <span class="material-icons-sharp text-primary text-sm">diamond</span></li>
+</ul>
+<div class="flex md:justify-end">
+<button class="petal-btn bg-primary px-8 py-3 text-emerald-900 font-bold uppercase tracking-widest text-xs hover:shadow-lg hover:shadow-primary/30">
+                                    Learn More
+                                </button>
+</div>
+</div>
+</div>
+</div>
+<div class="relative group">
+<div class="md:flex items-center justify-between">
+<div class="md:w-5/12 text-right hidden md:block">
+<h3 class="font-display text-2xl mb-4 text-primary">The Selection</h3>
+<p class="text-emerald-800/70 dark:text-stone-400">Each piece is curated based on its unique aesthetic and vibrance, ensuring only the most exquisite specimens reach your sanctuary.</p>
+</div>
+<div class="relative z-10 flex justify-center md:w-2/12 mb-8 md:mb-0">
+<div class="w-24 h-24 rounded-full bg-background-light dark:bg-background-dark border-2 border-primary flex items-center justify-center shadow-[0_0_30px_rgba(212,175,55,0.2)]">
+<span class="material-icons-sharp text-primary text-4xl">auto_fix_high</span>
+</div>
+</div>
+<div class="md:w-5/12 pl-0 md:pl-12">
+<div class="md:hidden">
+<h3 class="font-display text-2xl mb-2 text-primary">The Selection</h3>
+</div>
+<h2 class="font-display text-3xl md:text-4xl mb-4">Step III: Pure Curation</h2>
+<p class="text-emerald-800/70 dark:text-stone-400 mb-6 md:hidden">Each piece is curated based on its unique aesthetic and vibrance, ensuring only the most exquisite specimens reach your sanctuary.</p>
+<ul class="space-y-3 mb-8">
+<li class="flex items-center gap-3"><span class="material-icons-sharp text-primary text-sm">spa</span> Vibrance Verification</li>
+<li class="flex items-center gap-3"><span class="material-icons-sharp text-primary text-sm">spa</span> Sustainable Packaging</li>
+<li class="flex items-center gap-3"><span class="material-icons-sharp text-primary text-sm">spa</span> Energetic Cleansing</li>
+</ul>
+<button class="petal-btn bg-primary px-8 py-3 text-emerald-900 font-bold uppercase tracking-widest text-xs hover:shadow-lg hover:shadow-primary/30">
+                                Learn More
+                            </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-emerald-900 text-stone-100 overflow-hidden relative">
+<div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-primary to-transparent opacity-50"></div>
+<div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+<h2 class="font-display text-3xl md:text-5xl mb-8">From Earth to <span class="italic text-primary">Elegance</span></h2>
+<p class="font-serif text-lg text-stone-300 leading-relaxed mb-12 italic">
+                "We believe that a crystal's beauty is only as profound as the ethics behind its discovery."
+            </p>
+<div class="flex flex-wrap justify-center gap-6">
+<a class="border border-primary px-10 py-4 font-display tracking-widest uppercase text-sm hover:bg-primary hover:text-emerald-900 transition-all" href="#">Explore Collections</a>
+<a class="bg-primary px-10 py-4 font-display tracking-widest uppercase text-sm text-emerald-900 hover:bg-white transition-all" href="#">Request Sourcing Audit</a>
+</div>
+</div>
+<div class="absolute -bottom-20 -right-20 w-80 h-80 bg-primary/10 rounded-full blur-[100px]"></div>
+<div class="absolute -top-20 -left-20 w-80 h-80 bg-emerald-600/20 rounded-full blur-[100px]"></div>
+</section>
+<footer class="py-12 border-t border-primary/10 bg-background-light dark:bg-background-dark">
+<div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-8">
+<div class="text-center md:text-left">
+<p class="font-display text-lg text-primary mb-2">Niagara, Ontario</p>
+<p class="text-emerald-800/60 dark:text-stone-500 text-sm">© 2024 The Unearthed Garden. All rights reserved.</p>
+</div>
+<div class="flex gap-6">
+<a class="text-primary hover:text-amber-600 transition-colors" href="#">Instagram</a>
+<a class="text-primary hover:text-amber-600 transition-colors" href="#">Pinterest</a>
+<a class="text-primary hover:text-amber-600 transition-colors" href="#">Journal</a>
+</div>
+</div>
+</footer>
+
+</body></html>
